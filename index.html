@@ -1,0 +1,31 @@
+<!DOCTYPE html1>
+<html1 dir="rtl">
+    <haed>
+        <title>تطبيق جافا سكربت</title>
+
+        <script>
+            function turnOn(){
+                document.getElementById('MyImage').src="Downloads/light off.jpg";
+                document.getElementById('MyText').style.visibility="visible";
+            }
+            function turnoff(){
+                document.getElementById('MyImage').src="Downloads/light on.jpg"
+            }
+        </script>
+
+    </haed> 
+
+    <body style="background-color: black;">
+        <h1 style="color: white;">يوجد نص خفي, افتح الاناره لرؤيته</h1>
+
+        <button onclick="turnOn">افتح المصباح</button>
+        <button>اغلق المصباح</button>
+
+        <br>
+        <br>
+        <br>
+
+        <img id="MyImage" src="Downloads/light off.jpg" style="width:100px;"/>
+         <p id="MyText" style="color: green; font-size: 24px; visibility: hidden;">اغتنم خمسا</p>
+    </body>
+</html1>    
